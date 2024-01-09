@@ -145,8 +145,9 @@ font-weight: 700;
   line-height: 32px;
 }
 .offer-title{ 
-   padding: 10px;
+   border-radius: 50%;
   border: 10px solid red;
+  padding: 10px;
     
 }
 .offer-details h1{
@@ -181,5 +182,7 @@ line-height: 32px; /* 160% */
     justify-content: space-between;
     text-align: center;
     padding-top: 40px;
+    
+    
     
 }

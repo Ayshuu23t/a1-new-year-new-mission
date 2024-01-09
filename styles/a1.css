@@ -185,11 +185,40 @@ line-height: 32px; /* 160% */
     
     
 }
-.discount{
+.discount{ 
+    margin: 0 auto;
+    width: 1400px;
+    height: 940px;
     text-align: center;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 1400px 203px;
+    background-position: bottom left;
+    margin-top: 120px;
+
 }
 
-.discount h6{
+.parent {
+    display: flex;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+}
+.maiya {
+    width: 460px;
+    height: 460px;
+    padding-left: 129px;
+}
+.round {
+    position: relative;
+    left: 200px;
+    width: 206.841px;
+height: 206.841px;
+flex-shrink: 0;
+}
+.discount h4{
     color: #070211;
     font-size: 20px;
     font-weight: 400;
